@@ -1,0 +1,16 @@
+/* Box model */
+
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.paragrafo-box {
+    color: #000;
+    margin: 0;
+}
