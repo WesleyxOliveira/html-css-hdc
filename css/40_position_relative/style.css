@@ -1,0 +1,68 @@
+/* Box model */
+
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* Geral *;
+    /* padding: 20px; */
+    /* Especifico */
+    /* padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 5px; */
+    /* Especifico Agrupado */
+    padding: 30px 10px 20px 5px;
+    /* especifico agrupado 3 medidas - top, right-left, bottom */
+    padding: 30px 20px 5px;
+    /* especifico agrupado 2 medidas */
+    padding: 30px 20px;
+    border: 8px solid #000;
+    border-width: 5px 10px 2px 2px;
+    border-left: 5px solid #000;
+    border-right-style: solid;
+    border-width: 20px 10px;
+    border-radius: 15px;
+    margin: 50px;
+    margin: 5px 10px 10px 7px;
+    margin: 100px;
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+    display: block;
+}
+
+.paragrafo-box {
+    color: #000;
+    margin: 0;
+}
+
+/* Positions */
+/* static => Não é afetado pelas propriedades top, left, right e bottom */
+/* relative */
+/* fixed */
+/* absolute */
+/* sticky */
+
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border: 2px dotted black;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
